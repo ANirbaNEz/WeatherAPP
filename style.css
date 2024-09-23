@@ -1,0 +1,39 @@
+/* Default background */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #e0f7fa; /* Default background */
+    transition: background 0.5s ease; /* Smooth transition effect */
+}
+
+.sunny {
+    background: #f7d794; /* Light sunny color */
+}
+
+.cloudy {
+    background: #d3d3d3; /* Grey for cloudy weather */
+}
+
+.rainy {
+    background: #a1c4fd; /* Light blue for rainy weather */
+}
+
+.snowy {
+    background: #ffffff; /* White for snowy weather */
+}
+
+.clear {
+    background: #87ceeb; /* Sky blue for clear weather */
+}
+
+.thunderstorm {
+    background: #636363; /* Dark grey for thunderstorms */
+}
+
+.mist {
+    background: #cfcfcf; /* Light grey for mist */
+}
